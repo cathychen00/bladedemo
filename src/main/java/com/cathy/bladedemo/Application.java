@@ -8,6 +8,7 @@ public class Application {
 //            response.text("Hello World");
 //        }).start();
 
-        Blade.of().start(Application.class,args);
+        //showFileList(true)可以查看目录
+        Blade.of().showFileList(true).start(Application.class,args);
     }
 }
